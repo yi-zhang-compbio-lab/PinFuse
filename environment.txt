@@ -1,0 +1,21 @@
+# PinFuse environment
+# conda create -n pinfuse python=3.12
+# pip3 install torch==2.6.0 torchvision==0.21.0   # PyPI wheels are the cu124 build
+# pip3 install dgl==2.5.0+cu124 -f https://data.dgl.ai/wheels/torch-2.6/cu124/repo.html
+# pip3 install -r <(grep -v '^#' environment.txt | cut -d'#' -f1)
+#
+# torch >= 2.4 is required for NumPy 2; DGL has no wheels past torch 2.6.
+
+torch==2.6.0
+torchvision==0.21.0
+numpy>=2
+scipy
+scanpy
+anndata
+pyro-ppl
+ml-collections
+absl-py
+scikit-learn
+pandas
+STHD              # optional: STHD patch input
+spatialdata-io    # optional: raw Visium HD input
