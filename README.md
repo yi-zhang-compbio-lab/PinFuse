@@ -1,4 +1,4 @@
-# PinFuse: Physics-informed network for subcellular denoising and reconstruction of single-cell-resolved spatial transcriptomics
+# PinFuse: Physics-informed Advection-diffusion Modeling for Subcellular Denoising of High-resolution Spatial Transcriptomics
 
 **PinFuse** denoises sparse spatial transcriptomics counts with a graph variational
 autoencoder over each spot's spatial neighbourhood. Attention weights are a learned
